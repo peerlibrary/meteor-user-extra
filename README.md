@@ -10,7 +10,7 @@ Adding this package to your [Meteor](http://www.meteor.com/) application:
 * extends [`Meteor.user(userId)`](http://docs.meteor.com/#/full/meteor_user)
   into `Meteor.user(userId, fields)` which now accepts an argument to limit
   queried fields (and thus function's reactivity); `userId` is optional and if
-  not specified `Meteor.userId()` is used instead:
+  not specified `Meteor.userId()` is used instead
 
 Both client and server side.
 
