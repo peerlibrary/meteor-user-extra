@@ -30,7 +30,8 @@ Package.onTest(function (api) {
   api.use([
     'coffeescript',
     'accounts-password',
-    'random'
+    'random',
+    'mongo'
   ]);
 
   // Internal dependencies.

@@ -5,7 +5,7 @@ if Meteor.isServer
     @ready()
 
 else
-  TestCollection = new Meteor.Collection 'testCollection'
+  TestCollection = new Mongo.Collection 'testCollection'
 
 class BasicTestCase extends ClassyTestCase
   @testName: 'user-extra - basic'
