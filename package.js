@@ -16,6 +16,11 @@ Package.onUse(function (api) {
     'underscore'
   ]);
 
+  // 3rd party dependencies.
+  api.use([
+    'peerlibrary:publish-context@0.1.0'
+  ], 'server');
+
   api.addFiles([
     'server.coffee'
   ], 'server');
