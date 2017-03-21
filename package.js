@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:user-extra',
   summary: "Extended Meteor.userId() and Meteor.user()",
-  version: '0.1.1',
+  version: '0.1.2',
   git: 'https://github.com/peerlibrary/meteor-user-extra.git'
 });
 
