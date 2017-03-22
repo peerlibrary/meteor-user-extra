@@ -1,12 +1,12 @@
 Package.describe({
   name: 'peerlibrary:user-extra',
   summary: "Extended Meteor.userId() and Meteor.user()",
-  version: '0.1.2',
+  version: '0.1.3',
   git: 'https://github.com/peerlibrary/meteor-user-extra.git'
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0.3.1');
+  api.versionsFrom('METEOR@1.3.4.4');
 
   // Core dependencies.
   api.use([
@@ -31,6 +31,8 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
+  api.versionsFrom('METEOR@1.3.4.4');
+
   // Core dependencies.
   api.use([
     'coffeescript',
