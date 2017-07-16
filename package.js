@@ -18,7 +18,7 @@ Package.onUse(function (api) {
 
   // 3rd party dependencies.
   api.use([
-    'peerlibrary:publish-context@0.4.0'
+    'peerlibrary:publish-context@0.5.0'
   ], 'server');
 
   api.addFiles([

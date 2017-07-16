@@ -4,7 +4,7 @@ Extended Meteor.userId() and Meteor.user()
 Adding this package to your [Meteor](http://www.meteor.com/) application:
 
 * makes [`Meteor.userId()`](http://docs.meteor.com/#/full/meteor_userid)
-  work also inside the publish endpoint functions
+  work also inside the publish endpoint functions (even for Meteor versions prior to 1.5.1)
 * prevents direct modification of the user's profile from the client, which
   is otherwise allowed by Meteor
 * extends [`Meteor.user(userId)`](http://docs.meteor.com/#/full/meteor_user)
